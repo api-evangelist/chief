@@ -1,8 +1,12 @@
 aid: chief
 name: Chief
-description: Chief is a company surfaced as a portfolio company of general-catalyst, ggv-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Chief is a private membership network built to connect and support senior women leaders,
+  serving executives across more than 10,000 companies with roughly 44% of members in C-suite roles.
+  Membership combines vetted peer Core Groups, one-on-one and group executive coaching, business
+  training (including programming with partners such as The Wharton School), member Clubhouses, and
+  ChiefX events, plus an enterprise offering for companies sponsoring their women leaders. Chief is a
+  membership-and-community company rather than an API provider, so this profile is an identity record
+  in the API Evangelist network with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/chief/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,30 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://chief.com/images/chief_og_meta.png
 tags:
 - Company
+- Membership
+- Executive Network
+- Leadership
+- Community
+- Coaching
+- Women in Leadership
+- Professional Network
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.joinchief.com/
+  url: https://chief.com/
+- type: SignUp
+  url: https://chief.com/apply
+- type: Login
+  url: https://members.chief.com/login
+- type: TermsOfService
+  url: https://chief.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://chief.com/privacy
+- type: DomainSecurity
+  url: security/chief-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
